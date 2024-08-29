@@ -4,10 +4,13 @@ import path from "path";
 import cors from "cors";
 import bodyParser from "body-parser";
 
+import * as dotenv from "dotenv";
+dotenv.config();
+
 export const app = express();
 
 const corsOptions = {
-    origin: "http://localhost:5500",
+    origin: process.env.FRONT_END_URL,
     optionsSuccessStatus: 200,
 };
 

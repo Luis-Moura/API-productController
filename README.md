@@ -94,13 +94,13 @@ FRONT_END_URL="http://seu-ip-local:5501"
         ```
 
 #### **Adicionar 1 ao produto**
-- **PUT** `http://localhost:3000/api/estoque/:id/increment`
+- **PATCH** `http://localhost:3000/api/estoque/:id/increment`
     - Adiciona uma unidade ao estoque do produto especificado.
     - **Exemplo de uso:**
         - `http://localhost:3000/api/estoque/47/increment`
 
 #### **Remover 1 ao produto**
-- **PUT** `http://localhost:3000/api/estoque/:id/decrement`
+- **PATCH** `http://localhost:3000/api/estoque/:id/decrement`
     - Remove uma unidade do estoque do produto especificado.
     - **Exemplo de uso:**
         - `http://localhost:3000/api/estoque/47/decrement`

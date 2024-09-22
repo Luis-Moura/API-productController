@@ -5,7 +5,6 @@ O **ProductController** é uma aplicação de controle de estoque desenvolvida e
 
 ## Funcionalidades
 - **Gerenciamento de Produtos:** Permite o CRUD (Create, Read, Update, Delete) de produtos.
-- **Autenticação e Autorização:** Implementação de um sistema de login com suporte a diferentes níveis de acesso.
 - **Validação de Dados:** Garantia de que os dados inseridos seguem os padrões esperados.
 - **Segurança:** Proteção contra ataques comuns, como SQL Injection, e uso de CORS para controle de origens.
 
